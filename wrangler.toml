@@ -1,0 +1,14 @@
+name = "ne1-isan-team-private"
+main = "worker.js"
+compatibility_date = "2026-11-26"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ne1-members"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
